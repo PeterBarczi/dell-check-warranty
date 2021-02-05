@@ -5,8 +5,8 @@ You will also need the API keys provided by DELL.
 As soon as you get the APIs you can use the script.
 
 1. Fill in the following variables:
-`$ORG_API_Key="Your-API-key"
-$ORG_API_Secret="Your-API-Secret"`
+```$ORG_API_Key="Your-API-key"
+$ORG_API_Secret="Your-API-Secret"```
 
 2. Run script
 .\Get-DellWarrantyInfo.ps1
