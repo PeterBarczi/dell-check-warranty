@@ -1,14 +1,15 @@
 # Check Warranty of DELL devices
 
-This powershell script checks the warranty of your devices based on provided Serial number.
+This powershell script checks the warranty of your devices based on the Serial number you enter.
 You will also need the API keys provided by DELL.
+You can request the APIs via https://techdirect.dell.com/
 As soon as you get the APIs you can use the script.
 ```
-**1. Fill in the following variables:**
+1. Fill in the following variables:
 $ORG_API_Key="Your-API-key"
 $ORG_API_Secret="Your-API-Secret"
 
-**2. Run script**
+2. Run the script:
 .\Get-DellWarrantyInfo.ps1
 
 Enter ServiceTag [R90QYP6X] : GZ80E5X2
